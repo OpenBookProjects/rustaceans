@@ -11,9 +11,32 @@
 ## trace
 
 - [ ] Exercism/Rust
-- [ ] NN
-- [ ] Yazuri
+  - [x] [Exercism -> (Rust, Sublist). I will try to explain you how I am… | by Solomon | Medium](https://medium.com/@hack.me.solomon/exercism-rust-sublist-3c8299dffdf8)
+- [ ] SMailer ~ 定期邮件提醒服务
+- [ ] NN ~ 牛妞纪元换算器
+- [ ] Yazuri ~ 又一个缩址服务
 - [ ] ...
+
+
+### Exercism
+
+> sublist
+
+- [\[EN\] I am learning Rust - Exercism Sublist - YouTube](https://www.youtube.com/watch?v=0jBVJGgTTZg)
+- [Exercism -> (Rust, Sublist). I will try to explain you how I am… | by Solomon | Medium](https://medium.com/@hack.me.solomon/exercism-rust-sublist-3c8299dffdf8)
+- [exercism/lib.rs 位于 5bc942adf9d136848b4664bd8a3b35a9e349f9a9 - exercism - GoeDev's Workspace](https://git.gokmengorgen.net/goedev/exercism/src/commit/5bc942adf9d136848b4664bd8a3b35a9e349f9a9/rust/sublist/src/lib.rs)
+- [Exercism.io Sublist in Rust](https://gist.github.com/NickyMeuleman/dfec951450ed1729a8b20c7bcbcdca99)
+    - [shivjm's solution for Sublist in Rust on Exercism](https://exercism.org/tracks/rust/exercises/sublist/solutions/zenspider)
+    - [slice - Rust -> windows](https://doc.rust-lang.org/std/primitive.slice.html#method.windows)
+    - [Exercism -> (Rust, Sublist). I will try to explain you how I am… | by Solomon | Medium](https://medium.com/@hack.me.solomon/exercism-rust-sublist-3c8299dffdf8)
+    - ...
+- [shivjm's solution for Sublist in Rust on Exercism](https://exercism.org/tracks/rust/exercises/sublist/solutions/35d2201126f04463998cf5e4d3a0cca7)
+- ...
+
+
+
+
+
 
 
 ## refer.

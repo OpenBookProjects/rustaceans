@@ -68,7 +68,7 @@ fn sublist_early_in_huge_list() {
 }
 
 #[test]
-#[ignore]
+//#[ignore]
 fn huge_sublist_not_in_huge_list() {
     let v1: Vec<u64> = (10..1_000_001).collect();
     let v2: Vec<u64> = (1..1_000_000).collect();
