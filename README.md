@@ -1,25 +1,21 @@
-# Rustaceans
-> as ferris hallo world
+# SMailer
+> Schedule mailer
 
 ## background
 
-from Python -> Elixir -> Glong -> Rust
-
-need system app. develop tools, 
-so jump into Rust
+sentmail always need conf. some secret settings;
+but crontab tasks always need mail sent
 
 
 ## goal
 
-salable Rustaceans
+- base rust
+- can usage in crontab tasks
+- sent text mail base SMTP
 
 ## trace
 
-- [ ] Exercism/Rust
-- [ ] NN
-- [ ] Yazuri
-- [ ] ...
 
 ## logging
 
-- 221018 ZQ init.
+- 221020 ZQ init.
