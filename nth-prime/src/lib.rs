@@ -1,4 +1,8 @@
 macro_rules! range {
+    /*
+        RustでPythonライクなrangeを使う - Qiita
+    https://qiita.com/moisutsu/items/ff1ac20b39137f1ccdb9
+    */
     ($stop:expr) => {
         0..$stop
     };
@@ -22,14 +26,16 @@ pub fn chk_prime(value: u32) -> bool {
         return false;
     }
     /*
-    any int can make as any of:
-        6n
-        6n+1
-        ..
-        6n+5
-    except 2,3, only 6n+1,6n+5 is prime
-    if not, must include 6n+1||6n+5
-    */
+        any int can make as any of:
+            6n
+            6n+1
+            ..
+            6n+5
+        except 2,3, only 6n+1,6n+5 is prime
+        if not, must include 6n+1||6n+5
+        【Python】质数的几种判断方法 - 知乎
+    https://zhuanlan.zhihu.com/p/107300262
+        */
 
     if value % 6 != 1 && value % 6 != 5 {
         return false;
