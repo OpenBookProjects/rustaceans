@@ -64,6 +64,7 @@ where
 {
     let (result_tx, result_rx) = mpsc::channel::<T>();
     let jobs = Arc::new(Mutex::new(jobs));
+
     for _ in 0..worker_count {
         let thread_results = result_tx.clone();
         let queue_lock = jobs.clone();
@@ -73,5 +74,6 @@ where
             }
         });
     }
+
     result_rx
 }
