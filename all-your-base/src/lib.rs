@@ -53,6 +53,8 @@ pub fn convert(number: &[u32], from_base: u32, to_base: u32) -> Result<Vec<u32>,
         return Err(Error::InvalidOutputBase);
     }
     // fv: from value, merge number vec base from_base as one number
+    // [Iterator in std::iter - Rust](https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html)
+    // [迭代与并发 - Rust 中的异步编程](https://huangjj27.github.io/async-book/05_streams/02_iteration_and_concurrency.html)
     let mut fv = number
         .iter()
         .rev()
