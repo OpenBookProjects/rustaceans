@@ -15,6 +15,7 @@ const ocr_map:[(&str, char); 10] = [
 ];
  */
 use std::collections::HashMap;
+//use hashbrown::HashMap;
 
 #[derive(Debug, PartialEq, Eq)]
 pub enum Error {
