@@ -1,7 +1,6 @@
 //use itertools::Itertools;
 
 pub fn count(lines: &[&str]) -> u32 {
-    //unimplemented!("\nDetermine the count of rectangles in the ASCII diagram represented by the following lines:\n{lines:#?}\n.");
     let chars = lines
             .iter()
             .map(|l| l.as_bytes())
